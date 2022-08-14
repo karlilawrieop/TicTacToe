@@ -1,3 +1,12 @@
+/*
+The Cell class models each individual cell of the game board. Cell has an
+instance variable called content (with package access), of the type enum
+Player. You can only assign a value from the enum constants into the Cell
+content. The constant assigned to the Cell, if it is a Nought or a Cross, is
+drawn in its paint()method (which gets called by the Board class). A Cell
+also has an operation calledclear().
+ */
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Graphics;

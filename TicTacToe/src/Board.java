@@ -1,3 +1,12 @@
+/*
+Board is the class that models the Tic-Tac-Toe game board.
+The constructor initialises the Cell array that will hold the Cell positions and
+then creates a new Cellobject to store in each of the positions in the array.
+isDraw() and hasWon()methods are used to update the Game Status
+(GameState.'player'_won, GameState.draw). The paint()method handles
+drawingthe Board grid and calls the cell.paint()method so Cells are drawn
+ */
+
 import java.awt.*;
 
 public class Board {
