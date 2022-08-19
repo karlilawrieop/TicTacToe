@@ -55,9 +55,9 @@ public class Cell { // start of cell constructor
 	/** Set this cell's content to EMPTY */
 	public void clear() { // start of clear method
 		
-		// TODO: Set the value of content to Empty (Remember this is an enum in Player)
+		// TODO: !DONE Set the value of content to Empty (Remember this is an enum in Player)
 		
-	// Player.EMPTY;
+		content = Player.EMPTY;
 		
 	} // end of clear method
 		

@@ -69,7 +69,7 @@ public class GameMain extends JPanel implements MouseListener{ // start of GameM
 		setPreferredSize(new Dimension(CANVAS_WIDTH, CANVAS_HEIGHT + 30));
 		
 		
-		// TODO: Create a new instance of the game "Board"class. 
+		// TODO: !DONE Create a new instance of the game "Board"class. 
 		// HINT check the variables above for the correct name
 		board = new Board();
 		
@@ -158,7 +158,7 @@ public class GameMain extends JPanel implements MouseListener{ // start of GameM
 			//check for win after play
 			if(board.hasWon(thePlayer, row, col)) {
 								
-			// TODO: check which player has won and update the currentstate to the 
+			// TODO: !DONE check which player has won and update the currentstate to the 
 			// appropriate gamestate for the winner
 				if (currentPlayer.equals(Player.CROSS)) {
 					currentState = GameState.CROSS_WON; 
@@ -208,7 +208,7 @@ public class GameMain extends JPanel implements MouseListener{ // start of GameM
 			initGame();            
 		}   
 		
-		//TODO: redraw the graphics on the UI   
+		//TODO: !DONE redraw the graphics on the UI   
 		repaint(); // uses repaint method
            
 	} // end of mouseClicked method
