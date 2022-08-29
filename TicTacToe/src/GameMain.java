@@ -2,6 +2,7 @@ import java.awt.*;			// import all java classes for creating GUI
 import java.awt.event.*;	// import interfaces and classes for event
 import javax.swing.*;		// import package to create window based application
 
+@SuppressWarnings("serial")
 public class GameMain extends JPanel implements MouseListener{ // start of GameMain class
 	
 	// Constants for game 
